@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+    <Loggers>
+        <logger name="com.kishore.experiments.log4j2compositeconfiguration.Log4j2CompositeConfigurationApplication" level="debug" additivity="false">
+            <AppenderRef ref="Console"/>
+        </logger>
+        <root level="info">
+            <AppenderRef ref="Console"/>
+        </root>
+    </Loggers>
+</Configuration>
