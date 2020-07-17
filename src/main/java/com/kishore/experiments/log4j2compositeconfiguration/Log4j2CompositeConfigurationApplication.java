@@ -11,7 +11,7 @@ public class Log4j2CompositeConfigurationApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(Log4j2CompositeConfigurationApplication.class, args);
-		LOGGER.info("Application started successfully !!");
+		LOGGER.debug("Application started successfully !!");
 	}
 
 }
